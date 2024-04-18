@@ -1,0 +1,155 @@
+body{
+    background-image: url(./sharadesert.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+.logo img{
+    margin-left: 100px;
+    height: 50px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.navbar ul{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 100px;
+}
+.navbar ul li{
+    margin-left: 20px;
+    list-style: none;
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+.menu-items a{
+    text-decoration: none;
+    color: #fff;
+    transition: 200ms ease-in-out;
+}
+.menu-items a:hover{
+    font-weight: bold;
+    text-decoration: underline;
+}
+.navbar ul li img{
+    margin-top: -5px;
+    transition: 2ms;
+}
+.navbar ul li img:hover{
+    opacity: .33;
+}
+.details h1{
+    font-size: 6em;
+    color: #fff;
+    margin-left: 95px;
+    display: inline-block;
+    margin-top: 150px;
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+.details p{
+    color: #fff;
+    width: 55%;
+    margin-left: 101px;
+}
+.details button{
+    padding: 10px 50px;
+    font-size: 20px;
+    border-radius: 10px;
+    margin-left: 100px;
+    cursor: pointer;
+    background-color: brown;
+    opacity: .8;
+    text-transform: uppercase;
+}
+.details button:hover{
+    opacity: 1;
+}
+.body-section{
+    position: relative;
+}
+.card1{
+    height: 220px;
+    width: 200px;
+    background-image: url(./pic-1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 40px;
+    right: 300px;
+    border-radius: 10px;
+    color: #fff;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3);
+    transition: 200ms ease-in;
+}
+.card1 p{
+    margin-left: 10px;
+}
+.card2 p{
+    margin-left: 10px;
+}
+.card3 p{
+    margin-left: 10px;
+}
+.card4 p{
+    margin-left: 10px;
+}
+.card1:hover{
+    margin-top: -20px;
+}
+.card2:hover{
+    margin-top: -20px;
+}
+.card3:hover{
+    margin-top: -10px;
+}
+.card4:hover{
+    margin-top: -10px;
+}
+.card2{
+    height: 220px;
+    width: 200px;
+    background-image: url(./pic-2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 40px;
+    right: 40px;
+    border-radius: 10px;
+    color: #fff;
+    transition: 200ms ease-in;
+}
+.card3{
+    height: 220px;
+    width: 200px;
+    background-image: url(./pic-3.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 280px;
+    right: 300px;
+    border-radius: 10px;
+    color: #fff;
+    transition: 200ms ease-in;
+}
+.card4{
+    height: 220px;
+    width: 200px;
+    background-image: url(./pic-4.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 280px;
+    right: 40px;
+    border-radius: 10px;
+    color: #fff;
+    transition: 200ms ease-in;
+}
